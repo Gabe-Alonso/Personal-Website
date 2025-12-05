@@ -1,9 +1,59 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  max-width: none;
+  margin: 0;
+  padding: 0 2rem;
+  text-align: left;
+}
+
+
+.header {
+  position: sticky;
+  top: 0;
+  padding: 1rem;
+  z-index: 1000;
+  font-size: 1rem;
+  background-color: #242424;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.page-container {
+  max-width: 1000px;   /* choose whatever width you want */
+  margin: 0 auto;      /* <-- THIS centers horizontally */
+  padding: 2rem;       /* spacing around the content */
   text-align: center;
 }
+
+.title {
+  font-size: 1rem;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between; /* pushes left + right apart */
+  align-items: center;
+  padding: 1rem;
+  background: #242424;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.socials a {
+  color: white;
+  text-decoration: none;
+}
+
 
 .logo {
   height: 6em;
