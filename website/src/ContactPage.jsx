@@ -7,7 +7,8 @@ export function ContactPage() {
 
     return (
         <div>
-            <h1>Contact Page</h1>
+            <h1>Contact Me</h1>
+            <p>gabriel.dacosta.alonso@outlook.com</p>
         </div>
     )
 }
