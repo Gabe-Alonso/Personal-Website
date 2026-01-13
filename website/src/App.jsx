@@ -6,6 +6,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import './App.css'
 import {HomePage} from "./HomePage.jsx";
 import {ProjectsPage} from "./ProjectsPage.jsx";
+import {ProjectDetailPage} from "./ProjectDetailPage.jsx";
 import {MusicPage} from "./MusicPage.jsx";
 import {ResumePage} from "./ResumePage.jsx";
 import {BlogPage} from "./BlogPage.jsx";
@@ -29,6 +30,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<HomePage/>}></Route>
                     <Route path="/projects" element={<ProjectsPage/>}></Route>
+                    <Route path="/projects/:projectId" element={<ProjectDetailPage/>}></Route>
                     <Route path="/music" element={<MusicPage/>}></Route>
                     <Route path="/resume" element={<ResumePage/>}></Route>
                     <Route path="/blog" element={<BlogPage/>}></Route>
