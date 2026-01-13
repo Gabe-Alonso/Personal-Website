@@ -8,8 +8,10 @@ import {HomePage} from "./HomePage.jsx";
 import {ProjectsPage} from "./ProjectsPage.jsx";
 import {ProjectDetailPage} from "./ProjectDetailPage.jsx";
 import {MusicPage} from "./MusicPage.jsx";
+import {MusicDetailPage} from "./MusicDetailPage.jsx";
 import {ResumePage} from "./ResumePage.jsx";
 import {BlogPage} from "./BlogPage.jsx";
+import {BlogDetailPage} from "./BlogDetailPage.jsx";
 import {ContactPage} from "./ContactPage.jsx";
 
 
@@ -32,8 +34,10 @@ function App() {
                     <Route path="/projects" element={<ProjectsPage/>}></Route>
                     <Route path="/projects/:projectId" element={<ProjectDetailPage/>}></Route>
                     <Route path="/music" element={<MusicPage/>}></Route>
+                    <Route path="/music/:musicId" element={<MusicDetailPage/>}></Route>
                     <Route path="/resume" element={<ResumePage/>}></Route>
                     <Route path="/blog" element={<BlogPage/>}></Route>
+                    <Route path="/blog/:blogId" element={<BlogDetailPage/>}></Route>
                     <Route path="/contact" element={<ContactPage/>}></Route>
                 </Routes>
             </div>
