@@ -37,7 +37,7 @@ function ContentBox({ imageUrl, text }) {
     return (
         <div style={{
             width: "100%",
-            maxWidth: "600px", // ~40% of a 1500px screen
+            maxWidth: "700px",
             backgroundColor: "#1a1a1a",
             borderRadius: "12px",
             overflow: "hidden",
