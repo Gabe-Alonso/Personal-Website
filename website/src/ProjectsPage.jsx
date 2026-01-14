@@ -20,7 +20,7 @@ export function ProjectsPage() {
             <h1>My Projects</h1>
 
             <ProjectButton
-                href="https://github.com/your-github-username"
+                href="https://github.com/Gabe-Alonso"
                 icon={<GitHubIcon />}
                 label="View My Projects on Github"
                 target="_blank"
