@@ -9,7 +9,7 @@ export const musicData = {
         description: `
 # About This Song
 
-Your description here...
+[View My Cover Here](https://www.instagram.com/p/DSTxgEfkfls/)
         `.trim()
     },
     "wave": {
@@ -20,7 +20,7 @@ Your description here...
         description: `
 # About This Song
 
-Your description here...
+[View My Cover Here](https://www.instagram.com/p/DQ5jb_KkZHc/)
         `.trim()
     },
     "promise": {
@@ -31,7 +31,7 @@ Your description here...
         description: `
 # About This Song
 
-Your description here...
+[View My Cover Here](https://www.instagram.com/p/DP0DmMHEZVn/)
         `.trim()
     },
     "japanese-denim": {
@@ -42,7 +42,7 @@ Your description here...
         description: `
 # About This Song
 
-Your description here...
+[View My Cover Here](https://www.instagram.com/p/DPFeC6kASs-/)
         `.trim()
     },
     "lost-girl": {
@@ -53,7 +53,8 @@ Your description here...
         description: `
 # About This Song
 
-Your description here...
+[View My Cover Here](https://www.instagram.com/p/DNorH8NyaCS/)
+
         `.trim()
     },
     "tsukimi": {
@@ -64,7 +65,8 @@ Your description here...
         description: `
 # About This Song
 
-Your description here...
+[Full Performance](https://www.youtube.com/watch?v=4r9PWKnZeIs&list=PLki6_zDbt48bnx5eKbuRPT7vERa6BC0sk)
+
         `.trim()
     },
     "hawaii-banquet": {
@@ -75,7 +77,8 @@ Your description here...
         description: `
 # About This Song
 
-Your description here...
+[Full Performance](https://www.youtube.com/watch?v=s-a-iWsblf8&list=PLki6_zDbt48an3hJOyam_wJSFuWlUoUpn)
+
         `.trim()
     },
     "soubetsukai-25": {
@@ -86,18 +89,20 @@ Your description here...
         description: `
 # About This Song
 
-Your description here...
+[Full Performance](https://www.youtube.com/watch?v=bZQsdkghaBA&list=PLki6_zDbt48YhRzHUsue3fe6EH-7gMVd0)
+
         `.trim()
     },
     "open-house-25": {
-        id: "open-house-24",
+        id: "open-house-25",
         title: "Open House Farmer's Market 2025",
         date: "April 2025",
         thumbnailPublicId: "downtown_wc8oro",
         description: `
 # About This Song
 
-Your description here...
+[Full Performance](https://www.youtube.com/watch?v=zID8ST8_9bM&list=PLki6_zDbt48adTgmL1M2rEadamFRIo6xv)
+
         `.trim()
     },
     "winter-formal-25": {
@@ -108,7 +113,8 @@ Your description here...
         description: `
 # About This Song
 
-Your description here...
+[Full Performance](https://www.youtube.com/watch?v=2w2BtQ7AAUQ&list=PLki6_zDbt48aRLXEIiE9PIhurBxi038fn&pp=0gcJCbYEOCosWNin)
+
         `.trim()
     },
     "csa-banquet-25": {
@@ -119,7 +125,8 @@ Your description here...
         description: `
 # About This Song
 
-Your description here...
+[Full Performance](https://www.youtube.com/watch?v=ZgFQNVt6pag&list=PLki6_zDbt48ZaFzM5F0YUk9OCvHpYbRt2&pp=0gcJCbYEOCosWNin)
+
         `.trim()
     },
     "fall-house-show-24": {
@@ -130,10 +137,11 @@ Your description here...
         description: `
 # About This Song
 
-Your description here...
+[Full Performance](https://www.youtube.com/watch?v=uevpoa95G7Y&list=PLki6_zDbt48ZILfVGzPWon59isDvq-i92)
+
         `.trim()
     },
-    "soubestsukai-24": {
+    "soubetsukai-24": {
         id: "soubetsukai-24",
         title: "JSA Soubetsukai 2024",
         date: "May 2024",
@@ -141,7 +149,8 @@ Your description here...
         description: `
 # About This Song
 
-Your description here...
+[Full Performance](https://www.youtube.com/watch?v=j6Cby4swMdY&list=PLki6_zDbt48Z_G-OWid3phOJvirSWDjO7)
+
         `.trim()
     },
     "house-show-24": {
@@ -152,7 +161,8 @@ Your description here...
         description: `
 # About This Song
 
-Your description here...
+[Full Performance](https://www.youtube.com/watch?v=Qk9Mpf-ODls&list=PLki6_zDbt48bC3UBXJApDFt8PHNwuUP2Q&pp=0gcJCbYEOCosWNin)
+
         `.trim()
     },
     "lantern-fest-24": {
@@ -163,7 +173,8 @@ Your description here...
         description: `
 # About This Song
 
-Your description here...
+[Full Performance](https://www.youtube.com/watch?v=hOj3mkfXI9E&list=PLki6_zDbt48buErqzJb69cjfdKF18yzwM)
+
         `.trim()
     },
     "open-house-24": {
@@ -174,7 +185,8 @@ Your description here...
         description: `
 # About This Song
 
-Your description here...
+[Full Performance](https://www.youtube.com/watch?v=aq0ctXSyUSM&list=PLki6_zDbt48aILFOyds74MlTw4d48Asvg)
+
         `.trim()
     },
     "winter-formal-24": {
@@ -185,7 +197,8 @@ Your description here...
         description: `
 # About This Song
 
-Your description here...
+[Full Performance](https://www.youtube.com/watch?v=rszKoNJc06M&list=PLki6_zDbt48Z2ke9ZtFvQelFf9KIpMuWF)
+
         `.trim()
     },
     "ah-louis": {
@@ -196,7 +209,7 @@ Your description here...
         description: `
 # About This Song
 
-Your description here...
+[Full Performance](https://www.youtube.com/watch?v=LXY7t0yvLKc&list=PLki6_zDbt48b5brr86CrMvqzYfic3dMvg)
         `.trim()
     }
 };

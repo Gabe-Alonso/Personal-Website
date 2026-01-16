@@ -11,7 +11,7 @@ export const projectsData = {
         description: `
 # Project Overview
 
-Your second project description goes here...
+[View Project on GitHub](https://github.com/Gabe-Alonso/Personal-Website)
         `.trim()
     },
     "open-mic": {
@@ -21,6 +21,8 @@ Your second project description goes here...
         thumbnailPublicId: "open-mic_vzoh0m",
         description: `
 # Project Overview
+
+**Yet to Be Published**[View Project on GitHub]()
 
 This is where you write your blog-style description of the project.
 
@@ -49,6 +51,8 @@ Describe the outcomes and what you learned from this project.
         description: `
 # Project Overview
 
+[View Project on GitHub](https://github.com/Gabe-Alonso/ZombieGame)
+
 Your third project description goes here...
         `.trim()
     },
@@ -59,6 +63,8 @@ Your third project description goes here...
         thumbnailPublicId: "album_tracker_dkopdn",
         description: `
 # Project Overview
+
+[View Project on GitHub](https://github.com/Gabe-Alonso/437_Final)
 
 This is where you write your blog-style description of the project.
 
@@ -87,6 +93,8 @@ Describe the outcomes and what you learned from this project.
         description: `
 # Project Overview
 
+**Cannot share GitHub link, project is privated by owners**
+
 Your third project description goes here...
         `.trim()
     },
@@ -98,7 +106,9 @@ Your third project description goes here...
         description: `
 # Project Overview
 
-[demo](https://kghalamb.itch.io/tinyteetour)
+[View Project on GitHub](https://github.com/Gabe-Alonso/TinyTeeTour2)
+
+[Play Our Game Here!](https://kghalamb.itch.io/tinyteetour)
         `.trim()
     },
     "polypicks": {
@@ -108,6 +118,8 @@ Your third project description goes here...
         thumbnailPublicId: "polypicks_vf08og",
         description: `
 # Project Overview
+
+[View Project on GitHub](https://github.com/EmuMan/stay-soft)
 
 This is where you write your blog-style description of the project.
 
