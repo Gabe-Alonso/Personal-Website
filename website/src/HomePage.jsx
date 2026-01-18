@@ -12,8 +12,8 @@ export function HomePage() {
         '' // No fallback - will show nothing if Cloudinary fails
     );
 
-    const bioText = `Hello, I am **Gabriel Alonso**. I'm a recent **Computer Science**
-     graduate from the California Polytechnic State University, with a minor in
+    const bioText = `Hello, I'm **Gabriel Alonso**. I'm a recent **Computer Science**
+     graduate from the California Polytechnic State University - San Luis Obispo, with a minor in
       **Japanese Language and Culture**.
 
 In the area of software development, I have primarily focused on **Full-Stack Development**
