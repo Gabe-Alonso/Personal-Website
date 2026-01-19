@@ -10,6 +10,16 @@ export const musicData = {
 # About This Song
 
 [View My Cover Here](https://www.instagram.com/p/DSTxgEfkfls/)
+
+This cover forced me to reevaluate what I was doing with these covers that I had been posting. I put off
+posting it for a week because what I had created was generally dissapointing and I felt like I removed
+everything that made me like the song in the first place. So I rerecorded it, putting more emphasis
+into making something that sounded good than getting everything to a barely satisfactory level in one take,
+and I'm much happier with what I ended up producing the second time. It did make me want to take a break to get
+better at every step of the process before I posted another cover, though.
+
+Kind of unrelated but I was absolutely obsessed with Olivia Dean and "The Art of Loving" for two months or so,
+so just as a personal recommendation, please give it a listen. That and "Messy". Both lovely albums.
         `.trim()
     },
     "wave": {
@@ -21,6 +31,11 @@ export const musicData = {
 # About This Song
 
 [View My Cover Here](https://www.instagram.com/p/DQ5jb_KkZHc/)
+
+I'd been wanting to do a bossa nova song for a while, **"Wave"** is my personal favorite song composed
+by Tom Jobim. This was the hardest chord progression to learn on keys so far. I was also really wanting
+to sing something in Portuguese as I speak it fluently but never really had the chance to sing anything
+like this with my band.
         `.trim()
     },
     "promise": {
@@ -32,6 +47,12 @@ export const musicData = {
 # About This Song
 
 [View My Cover Here](https://www.instagram.com/p/DP0DmMHEZVn/)
+
+I was going to a Laufey concert that month, so I really wanted to learn a laufey song, and I had already done multiple
+iterations of "From the Start", so I chose something more piano focused that I hadn't focused on too much.
+Something I went back and forth on for this one was whether I would sing it in an octave higher than I was normally
+comfortable with, and I did actually record a higher take, but I wasn't satisfied with it so I once again
+chose the lower register.
         `.trim()
     },
     "japanese-denim": {
@@ -43,6 +64,14 @@ export const musicData = {
 # About This Song
 
 [View My Cover Here](https://www.instagram.com/p/DPFeC6kASs-/)
+
+I chose to sing this as my first real cover for a few reasons. I really like songs that are
+in 6/8, I think this song fit in my vocal range generally nicely, and this is the first song
+I sang in front of my band when I first told them I was thinking of trying vocals. Doing the
+full instrumentation was another kind of full circle moment for me. This was actually a cover I recorded and
+put together twice but I didn't feel satisfied with the first iteration, so I remade it from scratch
+while retaining what I could from the drum midi I had recorded as I no longer had access to them.
+Overall, definitely a big improvement but a lot of room to grow as well.
         `.trim()
     },
     "lost-girl": {
@@ -55,6 +84,9 @@ export const musicData = {
 
 [View My Cover Here](https://www.instagram.com/p/DNorH8NyaCS/)
 
+This is a cover of **"Lost Girl"** from Chapter 2 of Deltarune. This is one of my favorite leitmotifs
+from the game and I learned this song because I couldn't get it out of my head. This video was more of
+a trial run for posting covers to Instagram, so I only played keys.
         `.trim()
     },
     "tsukimi": {
