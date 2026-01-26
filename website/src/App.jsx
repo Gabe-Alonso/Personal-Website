@@ -47,24 +47,36 @@ function App() {
 }
 
 function HeaderBar() {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => setMenuOpen(!menuOpen);
+    const closeMenu = () => setMenuOpen(false);
+
     return (
         <header className="header">
             <div className="container">
                 <header className="topbar">
-                    <div className="name">Gabriel da Costa Alonso</div>
+                    <div className="name">Gabriel Alonso</div>
 
-                    <nav className="socials">
-                        <a href="https://www.linkedin.com/in/gabe-alonso/" target="_blank"><FaLinkedin size={24}/></a>
-                        <a href="https://github.com/Gabe-Alonso" target="_blank"><FaGithub size={24}/></a>
-                    </nav>
+                    <div className="topbar-right">
+                        <nav className="socials">
+                            <a href="https://www.linkedin.com/in/gabe-alonso/" target="_blank"><FaLinkedin size={24}/></a>
+                            <a href="https://github.com/Gabe-Alonso" target="_blank"><FaGithub size={24}/></a>
+                        </nav>
+                        <button className="hamburger" onClick={toggleMenu} aria-label="Toggle menu">
+                            <span className={`hamburger-line ${menuOpen ? 'open' : ''}`}></span>
+                            <span className={`hamburger-line ${menuOpen ? 'open' : ''}`}></span>
+                            <span className={`hamburger-line ${menuOpen ? 'open' : ''}`}></span>
+                        </button>
+                    </div>
                 </header>
-                <nav className="nav">
-                    <Link to="/">Home</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/music">Music</Link>
-                    <Link to="/resume">Resume</Link>
-                    <Link to="/blog">Blog</Link>
-                    <Link to="/contact">Contact</Link>
+                <nav className={`nav ${menuOpen ? 'nav-open' : ''}`}>
+                    <Link to="/" onClick={closeMenu}>Home</Link>
+                    <Link to="/projects" onClick={closeMenu}>Projects</Link>
+                    <Link to="/music" onClick={closeMenu}>Music</Link>
+                    <Link to="/resume" onClick={closeMenu}>Resume</Link>
+                    <Link to="/blog" onClick={closeMenu}>Blog</Link>
+                    <Link to="/contact" onClick={closeMenu}>Contact</Link>
                 </nav>
             </div>
         </header>
