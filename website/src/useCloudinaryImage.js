@@ -18,7 +18,7 @@ export function useCloudinaryImage(publicId, fallbackUrl = '') {
         }
 
         setLoading(true);
-        fetch(`http://localhost:4000/api/images/${publicId}`)
+        fetch(`https://personalbackend-haeveff8gcg9exhw.canadacentral-01.azurewebsites.net/api/images/${publicId}`)
             .then(res => {
                 if (!res.ok) throw new Error('Failed to fetch image');
                 return res.json();

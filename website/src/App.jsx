@@ -19,7 +19,7 @@ function App() {
   const [count, setCount] = useState(0)
 
     useEffect(() => {
-        fetch('http://localhost:4000/api/hello')
+        fetch('https://personalbackend-haeveff8gcg9exhw.canadacentral-01.azurewebsites.net/api/hello')
             .then(res => res.json())
             .then(data => console.log(data));
     }, []);
