@@ -34,9 +34,6 @@ jobs:
         working-directory: ./website
         run: |
           cp server.js dist/server.js
-          cd dist
-          npm init -y
-          npm install express
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
