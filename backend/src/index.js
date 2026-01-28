@@ -8,6 +8,7 @@ app.use(cors({
     origin: [
         'https://gabriel-alonso.com',
         'https://www.gabriel-alonso.com',
+        'https://personalfrontend-exdxccdqarg7dgfe.canadacentral-01.azurewebsites.net',
         'http://localhost:5173'
     ]
 }));
