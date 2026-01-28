@@ -17,8 +17,10 @@ This is the website you're currently on. I have been wanting to make a website o
 as a portfolio to show to employers but also as a means of communicating some of who I am to whoever may be curious,
 which is why I also emphasize music so much here. Seeing how much employers are asking for ability to use AI
 Coding assistants such as Copilot or Claude Code, I decided to use this as an opportunity to see what I could
-make while leveraging these tools. The general functionality of this website was built with assistance from
-Claude Code, but all the content was written by me personally.
+make while leveraging these tools. It was also an opportunity to learn how to deploy a website using Azure, which
+proved very difficult to me as a first time experience on my own, but as you can see, I eventually made it work.
+The general functionality of this website was built with assistance from Claude Code, but all the content was 
+written by me personally.
 
 I also want to credit my good friend Shayan for inspiration as I used his personal website as a guide
 to make my own. You can visit his page [here](https://shayandaijavad.com/).
