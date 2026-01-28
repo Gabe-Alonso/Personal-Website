@@ -4,7 +4,13 @@ const cors = require('cors');
 const cloudinary = require('./cloudinaryConfig');
 
 const app = express();
-app.use(cors());
+app.use(cors({
+    origin: [
+        'https://gabriel-alonso.com',
+        'https://www.gabriel-alonso.com',
+        'http://localhost:5173'
+    ]
+}));
 app.use(express.json());
 
 app.get('/api/hello', (req, res) => {
