@@ -10,4 +10,9 @@ export default defineConfig({
       },
     }),
   ],
+  server: {
+    proxy: {
+      '/api': 'https://gabriel-alonso.com',
+    },
+  },
 })
