@@ -3,6 +3,41 @@
 
 export const projectsData = {
     
+    "tangerine": {
+        id: "tangerine",
+        title: "Tangerine",
+        date: "Feb 2026 - Mar 2026",
+        thumbnailPublicId: "Tangerine_hq1tt1",
+        description: `
+# Project Overview
+
+[View Project on GitHub](https://github.com/Gabe-Alonso/Tangerine_Assessment_Prototype)
+
+[Try out the project here!](https://tangerine-assessment-prototype.vercel.app/)
+
+This was a project I worked on as a sort of proof-of-concept for new reading games to be added to BookSmart
+by Worldreader. The goal was to create a few games that would test different levels of reading ability and comprehension,
+in a way that was easy for a parent or teacher to do with a child. I created 4 games, including a letter sound
+recognition game, a word pronounciation game, a sentence reading game, and a story comprehension game.
+
+
+## Technologies Used
+- React Frontend Framework
+- JavaScript
+- HTML/CSS
+- GitHub
+- Claude Code
+- Vercel
+
+## Key Features
+1. Play 4 different games testing different levels of reading ability and comprehension
+
+## Challenges and Solutions
+The biggest challed with this project was implementing the Tangerine API, which limited what the games were
+able to be. This led to the second reading game being formatted in a way that I think impedes reading ability
+slightly, but it was functional enough as a prototype, so I was satisfied with it for the time being.
+        `.trim()
+    },
     "personal-website": {
         id: "personal-website",
         title: "Personal Website",
@@ -18,7 +53,9 @@ as a portfolio to show to employers but also as a means of communicating some of
 which is why I also emphasize music so much here. Seeing how much employers are asking for ability to use AI
 Coding assistants such as Copilot or Claude Code, I decided to use this as an opportunity to see what I could
 make while leveraging these tools. It was also an opportunity to learn how to deploy a website using Azure, which
-proved very difficult to me as a first time experience on my own, but as you can see, I eventually made it work.
+proved very difficult to me as a first time experience on my own, but as you can see, I eventually made it work. (Update:
+for the sake of simplicity, I ended up switching the deployment to Vercel, which updated faster and was easier to work with
+for a project of this size, but I am still glad I went through the process of learning how to use Azure as well).
 The general functionality of this website was built with assistance from Claude Code, but all the content was 
 written by me personally.
 
@@ -33,6 +70,8 @@ to make my own. You can visit his page [here](https://shayandaijavad.com/).
 - HTML/CSS
 - GitHub
 - Claude Code
+- Azure
+- Vercel
 
 ## Key Features
 1. View many of my projects, music performances/covers, and blog posts
@@ -47,12 +86,14 @@ I have felt oddly energized to work on this page in a way that I haven't for a w
     "open-mic": {
         id: "open-mic",
         title: "Open Mic",
-        date: "April 2025 - Present",
+        date: "April 2025 - March 2026",
         thumbnailPublicId: "open-mic_vzoh0m",
         description: `
 # Project Overview
 
-**Yet to Be Published**[View Project on GitHub]()
+[View Project on GitHub](https://github.com/Gabe-Alonso/OpenMic)
+
+[Visit the Beta Here!](https://open-mic-five.vercel.app/)
 
 OpenMic is a project that started in my Intro to Entrepreneurship course. The idea came from my personal struggles
 in finding somewhere for my band to gig at. I wanted to create an easy place for artists to find places to play
@@ -66,11 +107,23 @@ personal project, I decided to make the platform again from scratch into somethi
 for both mentioned parties. I do not currently intend to make it a fully functioning startup for now, but I would like to
 at least build the platform for now.
 
+March 2026 Update: I have since created a beta version of what I imagined the platform to be, currently hosted on
+Vercel with a Supabase backend. It developed into a social media platform for artists to find each other and make
+posts about their work and perfomances. I also used this as an opportunity to expose myself to some different
+technologies, such as the aforemention Supabase, as well as Svelte, counter to all the React projects I have done.
+I was able to get a pretty realized and function version of the platform up quickly while leveraging Claude Code.
+
 ## Technologies Used
 - Canva
 - Google Slides
 - Zoom
 - Wix
+- TypeScript
+- SvelteKit 2
+- Supabase
+- Vercel
+- GitHub
+- MapBox GL JS
 
 ## Key Features
 1. Allow artists to display their work to make themselves known to venues and other artists
